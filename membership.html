@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Membership | Northview HS Fine Arts Association</title>
+<meta name="description" content="Your membership directly funds instruments, supplies, costumes, and opportunities for 900+ student artists at Northview High School.">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body class="min-h-screen flex flex-col bg-background font-sans text-foreground">
+
+<header id="site-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent bg-transparent py-5">
+  <div class="container mx-auto px-4 md:px-6">
+    <div class="flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2 group">
+        <div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-serif font-bold text-xl transition-transform group-hover:scale-105">N</div>
+        <div class="flex flex-col">
+          <span class="font-serif font-bold leading-none text-foreground hdr-text">Northview HS</span>
+          <span class="text-xs font-semibold uppercase tracking-wider text-primary hdr-text">Fine Arts Association</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-8">
+        <ul class="flex items-center gap-6">
+          <li><a href="index.html" class="hdr-text text-sm font-medium transition-colors hover:text-primary text-foreground/80">Home</a></li>
+<li><a href="programs.html" class="hdr-text text-sm font-medium transition-colors hover:text-primary text-foreground/80">Programs</a></li>
+<li><a href="membership.html" class="hdr-text text-sm font-medium transition-colors hover:text-primary text-primary">Membership</a></li>
+<li><a href="volunteer.html" class="hdr-text text-sm font-medium transition-colors hover:text-primary text-foreground/80">Volunteer</a></li>
+<li><a href="support.html" class="hdr-text text-sm font-medium transition-colors hover:text-primary text-foreground/80">Support</a></li>
+<li><a href="about.html" class="hdr-text text-sm font-medium transition-colors hover:text-primary text-foreground/80">About</a></li>
+
+        </ul>
+        <a href="https://northviewfaa.org/membership/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full px-6 h-10 shadow-md hover:shadow-lg transition-all bg-primary text-primary-foreground font-medium text-sm hover:bg-primary/90">Join Now</a>
+      </nav>
+
+      <button id="mobile-menu-button" class="hdr-text lg:hidden p-2 rounded-md transition-colors text-foreground" aria-label="Toggle menu">
+        <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        <svg id="icon-close" class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-nav" class="hidden lg:hidden absolute top-full left-0 right-0 bg-background border-b border-border shadow-lg">
+    <nav class="container mx-auto px-4 py-4 flex flex-col gap-4">
+      <ul class="flex flex-col gap-2">
+        <li><a href="index.html" class="block py-2 px-4 rounded-md text-base font-medium transition-colors text-foreground/80 hover:bg-accent/20 hover:text-foreground">Home</a></li>
+<li><a href="programs.html" class="block py-2 px-4 rounded-md text-base font-medium transition-colors text-foreground/80 hover:bg-accent/20 hover:text-foreground">Programs</a></li>
+<li><a href="membership.html" class="block py-2 px-4 rounded-md text-base font-medium transition-colors bg-primary/10 text-primary">Membership</a></li>
+<li><a href="volunteer.html" class="block py-2 px-4 rounded-md text-base font-medium transition-colors text-foreground/80 hover:bg-accent/20 hover:text-foreground">Volunteer</a></li>
+<li><a href="support.html" class="block py-2 px-4 rounded-md text-base font-medium transition-colors text-foreground/80 hover:bg-accent/20 hover:text-foreground">Support</a></li>
+<li><a href="about.html" class="block py-2 px-4 rounded-md text-base font-medium transition-colors text-foreground/80 hover:bg-accent/20 hover:text-foreground">About</a></li>
+
+      </ul>
+      <div class="pt-4 border-t border-border px-4">
+        <a href="https://northviewfaa.org/membership/" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center rounded-full bg-primary text-primary-foreground font-medium h-10 hover:bg-primary/90">Join Now</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="flex-grow">
+
+<div class="w-full">
+  <section class="relative pt-32 pb-20 bg-primary text-primary-foreground overflow-hidden">
+    <div class="container relative z-10 mx-auto px-4 md:px-6 text-center">
+      <div class="inline-flex items-center rounded-full border border-white/20 bg-white/10 px-3 py-1 text-sm font-medium backdrop-blur-md mb-6">
+        <svg class="mr-2 h-4 w-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+        Tax-Deductible Donation
+      </div>
+      <h1 class="text-4xl md:text-6xl font-serif font-bold mb-6">Join the Fine Arts Association</h1>
+      <p class="text-xl text-primary-foreground/80 max-w-2xl mx-auto">Your membership directly funds instruments, supplies, costumes, and opportunities for 900+ student artists at Northview High School.</p>
+    </div>
+  </section>
+
+  <section class="py-24 bg-background">
+    <div class="container mx-auto px-4 md:px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">Choose Your Level</h2>
+        <p class="text-lg text-muted-foreground max-w-xl mx-auto">All tiers are tax-deductible. Every dollar goes directly to supporting student artists.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        
+    <div class="relative">
+      
+      <div class="rounded-lg border-2 border-border h-full flex flex-col shadow-md transition-all hover:shadow-xl bg-card">
+        <div class="p-6 pb-4">
+          <span class="text-xs font-bold uppercase tracking-widest px-2 py-1 rounded bg-muted text-muted-foreground">Member</span>
+          <div class="flex items-end gap-1 mt-4">
+            <span class="text-5xl font-serif font-bold text-primary">$50</span>
+            <span class="text-muted-foreground text-lg mb-1">/year</span>
+          </div>
+        </div>
+        <div class="flex-grow flex flex-col px-6 pb-6">
+          <ul class="flex flex-col gap-3 mb-8 flex-grow">
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Full FAA membership for one year</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Tax-deductible donation receipt</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>FAA newsletter and updates</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Recognition in concert programs</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Voting rights at FAA meetings</span>
+        </li></ul>
+          <a href="https://northviewfaa.org/faa-membership-basic/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-full rounded-full font-semibold h-11 border border-primary text-primary hover:bg-primary hover:text-white">Join as Member</a>
+        </div>
+      </div>
+    </div>
+    <div class="relative">
+      
+    <div class="absolute -top-4 left-0 right-0 flex justify-center z-10">
+      <span class="bg-accent text-accent-foreground text-xs font-bold uppercase tracking-wider px-4 py-1 rounded-full shadow-md">Most Popular</span>
+    </div>
+      <div class="rounded-lg border-2 border-accent h-full flex flex-col shadow-xl scale-105 transition-all hover:shadow-xl bg-card">
+        <div class="p-6 pb-4">
+          <span class="text-xs font-bold uppercase tracking-widest px-2 py-1 rounded bg-accent text-accent-foreground">Patron</span>
+          <div class="flex items-end gap-1 mt-4">
+            <span class="text-5xl font-serif font-bold text-primary">$100</span>
+            <span class="text-muted-foreground text-lg mb-1">/year</span>
+          </div>
+        </div>
+        <div class="flex-grow flex flex-col px-6 pb-6">
+          <ul class="flex flex-col gap-3 mb-8 flex-grow">
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Everything in Member</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Enhanced recognition in programs</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Priority volunteer sign-up access</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Invitation to patron appreciation event</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Direct impact on equipment fund</span>
+        </li></ul>
+          <a href="https://northviewfaa.org/faa-membership-patron/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-full rounded-full font-semibold h-11 bg-primary text-primary-foreground hover:bg-primary/90">Join as Patron</a>
+        </div>
+      </div>
+    </div>
+    <div class="relative">
+      
+      <div class="rounded-lg border-2 border-secondary h-full flex flex-col shadow-md transition-all hover:shadow-xl bg-card">
+        <div class="p-6 pb-4">
+          <span class="text-xs font-bold uppercase tracking-widest px-2 py-1 rounded bg-secondary text-secondary-foreground">Sponsor</span>
+          <div class="flex items-end gap-1 mt-4">
+            <span class="text-5xl font-serif font-bold text-primary">$200</span>
+            <span class="text-muted-foreground text-lg mb-1">/year</span>
+          </div>
+        </div>
+        <div class="flex-grow flex flex-col px-6 pb-6">
+          <ul class="flex flex-col gap-3 mb-8 flex-grow">
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Everything in Patron</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Premium recognition in all programs</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Sponsor spotlight on FAA website</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Named contribution to a program need</span>
+        </li>
+        <li class="flex items-start gap-2 text-sm">
+          <svg class="h-4 w-4 text-accent mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span>Exclusive sponsor meet-and-greet with directors</span>
+        </li></ul>
+          <a href="https://northviewfaa.org/faa-membership-sponsor/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-full rounded-full font-semibold h-11 border border-secondary text-secondary hover:bg-secondary hover:text-white">Join as Sponsor</a>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-muted/50">
+    <div class="container mx-auto px-4 md:px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">Where Your Membership Goes</h2>
+        <p class="text-lg text-muted-foreground max-w-xl mx-auto">Every membership dollar funds real, tangible needs that the school budget simply cannot cover.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        
+<div class="rounded-lg border border-border bg-card h-full p-6">
+  <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mb-4">
+    <svg class="h-5 w-5 text-accent" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 19.771l-7.416 3.642 1.48-8.279L0 9.306l8.332-1.151z"/></svg>
+  </div>
+  <h3 class="font-serif font-bold text-primary text-lg mb-2">Instrument Purchases</h3>
+  <p class="text-sm text-muted-foreground">Brand-new instruments for students whose families can't afford them.</p>
+</div>
+<div class="rounded-lg border border-border bg-card h-full p-6">
+  <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mb-4">
+    <svg class="h-5 w-5 text-accent" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 19.771l-7.416 3.642 1.48-8.279L0 9.306l8.332-1.151z"/></svg>
+  </div>
+  <h3 class="font-serif font-bold text-primary text-lg mb-2">Instrument Repairs</h3>
+  <p class="text-sm text-muted-foreground">Keep school instruments in performance-ready condition all year long.</p>
+</div>
+<div class="rounded-lg border border-border bg-card h-full p-6">
+  <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mb-4">
+    <svg class="h-5 w-5 text-accent" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 19.771l-7.416 3.642 1.48-8.279L0 9.306l8.332-1.151z"/></svg>
+  </div>
+  <h3 class="font-serif font-bold text-primary text-lg mb-2">Equipment & Supplies</h3>
+  <p class="text-sm text-muted-foreground">Art supplies, staging equipment, audio gear, and everything in between.</p>
+</div>
+<div class="rounded-lg border border-border bg-card h-full p-6">
+  <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mb-4">
+    <svg class="h-5 w-5 text-accent" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 19.771l-7.416 3.642 1.48-8.279L0 9.306l8.332-1.151z"/></svg>
+  </div>
+  <h3 class="font-serif font-bold text-primary text-lg mb-2">Costumes & Uniforms</h3>
+  <p class="text-sm text-muted-foreground">Wardrobe for drama productions and uniform upkeep for band and orchestra.</p>
+</div>
+<div class="rounded-lg border border-border bg-card h-full p-6">
+  <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mb-4">
+    <svg class="h-5 w-5 text-accent" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 19.771l-7.416 3.642 1.48-8.279L0 9.306l8.332-1.151z"/></svg>
+  </div>
+  <h3 class="font-serif font-bold text-primary text-lg mb-2">Awards & Recognition</h3>
+  <p class="text-sm text-muted-foreground">Trophies, certificates, and recognition for student achievement.</p>
+</div>
+<div class="rounded-lg border border-border bg-card h-full p-6">
+  <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mb-4">
+    <svg class="h-5 w-5 text-accent" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 19.771l-7.416 3.642 1.48-8.279L0 9.306l8.332-1.151z"/></svg>
+  </div>
+  <h3 class="font-serif font-bold text-primary text-lg mb-2">Travel & Competition</h3>
+  <p class="text-sm text-muted-foreground">Helping programs attend competitions, festivals, and performances.</p>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-background">
+    <div class="container mx-auto px-4 md:px-6 max-w-3xl">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">Frequently Asked Questions</h2>
+      </div>
+      <div class="flex flex-col gap-4">
+        
+<div class="rounded-lg border border-border bg-card p-6">
+  <h3 class="font-serif font-bold text-primary text-lg mb-2">Is my membership tax-deductible?</h3>
+  <p class="text-muted-foreground text-sm leading-relaxed">Yes! The Northview HS Fine Arts Association is a 501(c)(3) nonprofit. Your entire membership fee is a tax-deductible donation. You will receive a receipt for your records.</p>
+</div>
+<div class="rounded-lg border border-border bg-card p-6">
+  <h3 class="font-serif font-bold text-primary text-lg mb-2">When does my membership expire?</h3>
+  <p class="text-muted-foreground text-sm leading-relaxed">Memberships are annual and run for one school year. You'll receive a reminder when it's time to renew.</p>
+</div>
+<div class="rounded-lg border border-border bg-card p-6">
+  <h3 class="font-serif font-bold text-primary text-lg mb-2">Can I upgrade my membership level?</h3>
+  <p class="text-muted-foreground text-sm leading-relaxed">Absolutely. You can upgrade at any time by purchasing a higher tier. Contact membership@northviewfaa.org for assistance.</p>
+</div>
+<div class="rounded-lg border border-border bg-card p-6">
+  <h3 class="font-serif font-bold text-primary text-lg mb-2">Do I need to have a student in a specific program?</h3>
+  <p class="text-muted-foreground text-sm leading-relaxed">Not at all! All parents of Northview students are welcome to join and support any or all of the five fine arts programs.</p>
+</div>
+<div class="rounded-lg border border-border bg-card p-6">
+  <h3 class="font-serif font-bold text-primary text-lg mb-2">How quickly does my membership go into effect?</h3>
+  <p class="text-muted-foreground text-sm leading-relaxed">Your membership is active as soon as your payment is processed. You'll receive a confirmation email shortly after joining.</p>
+</div>
+      </div>
+      <div class="mt-12 text-center">
+        <p class="text-muted-foreground mb-4">Still have questions?</p>
+        <a href="mailto:membership@northviewfaa.org" class="inline-flex items-center justify-center rounded-full border border-input px-6 h-10 hover:bg-accent hover:text-accent-foreground">Email Us: membership@northviewfaa.org</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<footer class="bg-primary text-primary-foreground py-16 border-t-4 border-accent">
+  <div class="container mx-auto px-4 md:px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-12">
+      <div class="flex flex-col gap-4">
+        <a href="index.html" class="flex items-center gap-2 group">
+          <div class="w-12 h-12 rounded-full bg-background flex items-center justify-center text-primary font-serif font-bold text-2xl transition-transform group-hover:scale-105">N</div>
+          <div class="flex flex-col">
+            <span class="font-serif font-bold text-lg leading-none">Northview HS</span>
+            <span class="text-xs font-semibold uppercase tracking-wider text-primary-foreground/80">Fine Arts Association</span>
+          </div>
+        </a>
+        <p class="text-primary-foreground/70 text-sm mt-2 max-w-xs">A parent-volunteer booster organization supporting Art, Band, Chorus, Drama, and Orchestra for 900+ high school students at Northview High School in Georgia.</p>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <h3 class="font-serif font-semibold text-lg border-b border-primary-foreground/20 pb-2 inline-block w-max">Quick Links</h3>
+        <ul class="flex flex-col gap-2 text-sm text-primary-foreground/80">
+          <li><a href="index.html" class="hover:text-accent transition-colors">Home</a></li>
+          <li><a href="programs.html" class="hover:text-accent transition-colors">Our Programs</a></li>
+          <li><a href="membership.html" class="hover:text-accent transition-colors">Membership</a></li>
+          <li><a href="volunteer.html" class="hover:text-accent transition-colors">Volunteer</a></li>
+          <li><a href="support.html" class="hover:text-accent transition-colors">Support the FAA</a></li>
+          <li><a href="about.html" class="hover:text-accent transition-colors">About Us</a></li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <h3 class="font-serif font-semibold text-lg border-b border-primary-foreground/20 pb-2 inline-block w-max">Contact Us</h3>
+        <ul class="flex flex-col gap-2 text-sm text-primary-foreground/80">
+          <li><a href="mailto:membership@northviewfaa.org" class="hover:text-accent transition-colors">membership@northviewfaa.org</a></li>
+          <li class="mt-4">
+            <a href="https://www.facebook.com/NorthviewFAA/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-primary-foreground/90 hover:text-accent transition-colors group">
+              <span class="w-8 h-8 rounded-full bg-primary-foreground/10 flex items-center justify-center group-hover:bg-accent group-hover:text-primary transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.313a1.686 1.686 0 0 0-.679.679c-.239.481-.334 1.132-.334 2.005v1.583h3.926l-.393 2.264-.253 1.403h-3.28v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+              </span>
+              Follow us on Facebook
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <h3 class="font-serif font-semibold text-lg border-b border-primary-foreground/20 pb-2 inline-block w-max">Get Involved</h3>
+        <p class="text-sm text-primary-foreground/80 mb-2">Join us in supporting the next generation of artists.</p>
+        <a href="https://northviewfaa.org/membership/" target="_blank" rel="noopener noreferrer" class="inline-block bg-accent text-primary font-semibold py-2 px-6 rounded-full text-center hover:bg-accent/90 transition-colors shadow-sm">Become a Member</a>
+      </div>
+    </div>
+
+    <div class="pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-primary-foreground/60">
+      <p>&copy; 2025 Northview HS Fine Arts Association. All rights reserved.</p>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-primary-foreground transition-colors">Privacy Policy</a>
+        <a href="#" class="hover:text-primary-foreground transition-colors">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
